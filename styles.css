@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7)),url("");
+    background-position: cover;
+    position: relative;
+}
+
+.nav{
+ display: flex;
+ padding: 3% 6%;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.nav img{
+    width: 155px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.news{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 12px;
+    margin: 100;
+}
+
+.news-links{
+    flex: 1;
+    text-align: justify;
+}
+.news-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+}
+.team{
+    font-size: xx-large;
+    padding: 10px 12px;
+}
+
+.name1{
+    border-bottom: 5px solid red;
+    display: inline-block;
+}
+.name2{
+    border-bottom: 5px solid red;
+    display: inline-block;
+}
+
+.footer{
+    padding: 10px 12px;
+    font-size: 100px;
+    font-style: normal;
+}
